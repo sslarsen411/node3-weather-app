@@ -35,6 +35,14 @@ h1 {
 p{
     font-size: 1.5rem;
 }
+
+a,
+a:active,
+a:visited{
+    color:goldenrod;
+    text-decoration: none;
+
+}
 header a {
     color: gold;
     margin-right: 16px;
