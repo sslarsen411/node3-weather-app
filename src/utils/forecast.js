@@ -13,7 +13,7 @@ const forecast = (latitude, longitude, callback) => {
             callback(undefined, 
                 body.current.weather_descriptions[0] + ". It is currently " + 
                 body.current.temperature + " degress out. " +
-                'Wind speed and direction is ' + body.current.wind_speed + ' mph ' + body.current.wind_dir + '.')
+                'Wind git speed and direction is ' + body.current.wind_speed + ' mph ' + body.current.wind_dir + '.')
         }
     })
 }
