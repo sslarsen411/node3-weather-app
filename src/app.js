@@ -26,7 +26,7 @@ app.get('',(req, res) => {
 
 app.get('/about',(req, res) => {
     res.render('about',{
-        title:"About Scott's Weather App",
+        title:"About This App",
         name: 'Scott Larsen' 
     })
 })
@@ -73,7 +73,6 @@ app.get('/products', (req, res) => {
         products:[]
     })
 })
-
 // ERROR Pages
 app.get('/help/*', (req, res) => {
     res.render('404', {
